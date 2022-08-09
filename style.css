@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#header {
+    
+    padding: 20px 6rem;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+
+
+#header .all .left {
+    float: left;
+}
+
+#header .all .right {
+    float: right;
+}
+
+#header .all .right a {
+    color: #ffffffb3;
+    font-size: 14.4px;
+    margin-left: 3rem;
+    margin-top: 5px;
+}
+
+#header .all .left a {
+    color: #ffffffb3;
+    font-size: 20px;
+    margin-left: 3rem;
+}
+
+#header .all a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#first {
+    background-image: url(../img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 13.75rem;
+    position: relative;
+    z-index: 2;
+}
+
+#first .text h1{
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#first .text hr {
+    width: 4%;
+    background-color: #f4623a;
+    border: 1px solid #f4623a;
+    margin: 24px auto;
+}
+
+#first .text p{
+    font-size: 18.4px;
+    color: #ffffffbf;
+    margin-bottom: 48px;
+}
+
+#first .text a{
+    font-size: 13.6px;
+    padding: 20px 36px;
+    border-radius: 30px;
+    background-color: #f4623a;
+    color: #fff;
+}
+
+#first .overlay {
+    background:  linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#second {
+    padding: 8rem;
+    background-color: #f4623a;
+    text-align: center;
+}
+
+#second .text h2{
+    font-size: 32px;
+    color: #fff;
+}
+
+#second .text hr{
+    width: 4%;
+    margin: 24px auto;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+#second .text p{
+    font-size: 16px;
+    margin-bottom: 48px;
+    color: #ffffffbf;
+}
+
+#second .text .link a{
+    padding: 20px 36px;
+    border-radius: 30px;
+    background-color: black;
+    color: #f8f9fa;
+}
+
+#third {
+    padding: 8rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+#third .text h2{
+    font-size: 32px;
+    color: #212529;
+}
+
+#third hr{
+    width: 4%;
+    background-color: #f4623a;
+    border: 1px solid #f4623a;
+    margin: 24px auto;
+}
+
+#third svg{
+    margin: 16px 0 8px;
+}
+
+#third .icons__box{
+    width: 25%;
+    float: left;
+}
+
+#third .icons__box h2{
+    font-size: 24px;
+    color: #212529;
+    margin: 0 0 8px;
+}
+
+#third .icons__box p{
+    color: #6c757d;
+    font-size: 16px;
+}
+
+#fourth {
+    overflow: auto;
+}
+
+#fourth .box {
+    width: calc(100%/3);
+    float: left;
+    position: relative;
+    
+}
+
+#fourth .box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+#fourth .overlay {
+    background: #f4623a;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+#fourth .box:hover .overlay {
+    opacity: 0.8;
+}
+
+#fourth h2{
+    color: #ffffff80;
+    font-size: 13.6px;
+}
+
+#fourth p{
+    color: #fff;
+    font-size: 19.6px;
+}
+
+#fourth .overlay__text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-weight: 700;
+}
+
+#five {
+    padding: 8rem 0;
+    background-color: black;
+    text-align: center;
+}
+
+#five h2{
+    font-size: 32px;
+    margin: 0 0 48px;
+    color: #fff;
+}
+
+#five a {
+    padding: 20px 36px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+}
+
+#six {
+    padding: 8rem 0;
+    text-align: center;
+}
+
+#six .text h2{
+    font-size: 32px;
+    margin: 0 0 8px;
+    font-weight: 500;
+}
+
+#six .text hr {
+    width: 4%;
+    background-color: #f4623a;
+    border: 1px solid #f4623a;
+    margin: 24px auto;
+}
+
+#six .text p {
+    font-size: 16px;
+    color: #6c757d;
+    margin: 0 0 48px;
+}
+
+#six .forms .inp {
+    width: 35%;
+    padding: 16px 20px;
+    border: 1px solid #f4623a;
+}
+
+#six textarea{
+    margin-top: 16px;
+}
+
+#six button {
+    padding: 20px 15rem;
+    border-radius: 30PX;
+    margin-top: 16px;
+    background-color: #f4623a;
+    color: #fff;
+    border: 1px solid #f4623a;
+}
+#six .icon__phone {
+    margin: 48px;
+}
+
+#footer {
+    text-align: center;
+    padding: 4rem;
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
